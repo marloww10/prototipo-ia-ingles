@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyBnbvPexkSaj8GwtTbNUuznBV6ro-EbB4M")
+client = genai.Client(api_key="SUA API AQUI")
 
 
 def menu():
@@ -125,3 +125,4 @@ def treinar_idioma():
         print(f"IA: {pergunta}")
 
 treinar_idioma()
+
